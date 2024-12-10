@@ -1,0 +1,143 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color:whitesmoke;
+}
+
+/* Estilos del Header */
+header{
+    background-color: rgb(43, 153, 156);
+    color: beige (250, 235, 215, 0.822);
+padding: 10px ;
+position: sticky;
+top: 0px;
+z-index: 1000;
+}
+
+header .container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px;
+}
+
+nav a{
+    color: rgb(23, 8, 90);
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* Estilos Sección Hero */
+.hero {
+    background: url('mascota\ 7jpg..jpg') no-repeat center center/cover;
+    color: rgb(167, 39, 66);
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+}
+
+.hero .overlay{
+    background-color: rgb(217, 223, 224);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+.button{
+background-color: rgb(187, 181, 183);
+color: rgb(25, 0, 255);
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+text-decoration: none;
+display: inline-block;
+}
+
+
+.button:hover {
+    background-color: blue;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #fff;
+}
+
+.features .feature {
+    text-align: center;
+    width: 30%;
+}
+
+/* Contacto */
+.contact-main {
+    background: url('mascota\ 8jpg..jpg')no-repeat center center/cover;
+    color: coral;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.form-section {
+background: #db63bd; /* Semi-transparent background */
+color: rgb(14, 1, 17); /* Text color */
+padding: 20px;
+max-width: 400px;
+margin: auto;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgb(43, 153, 156);
+}
+
+.form-section label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-section input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #32a064;
+}
+
+
+/* Galleria */
+.gallery .grid-2-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(23, 8, 90);
+}
+
+/* footer */
+footer {
+    background: #08001a;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
